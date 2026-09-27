@@ -2,7 +2,7 @@ import random
 import matplotlib.pyplot as plt
 
 print("\n===================================================")
-print("        MARVELLOUS LEARNING WITH VISUALIZATION")
+print("        LEARNING WITH VISUALIZATION")
 print("===================================================\n")
 
 
