@@ -6,7 +6,7 @@ import random
 import matplotlib.pyplot as plt
 
 print("\n==========================================================")
-print("      MARVELLOUS MULTI-NEURON ANN TRAINING DEMO")
+print("       MULTI-NEURON ANN TRAINING DEMO")
 print("==========================================================\n")
 
 # ---------------------------------------------------------
