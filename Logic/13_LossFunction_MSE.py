@@ -1,6 +1,6 @@
 # Marvellous MSE Loss Demonstration
 
-def Marvellous_MSE(y_true, y_pred):
+def MSE(y_true, y_pred):
     n = len(y_true)
     total_error = 0
 
