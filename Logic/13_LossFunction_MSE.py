@@ -17,4 +17,4 @@ y_true = [10, 20, 30]
 y_pred = [12, 18, 33]
 
 loss = MSE(y_true, y_pred)
-print("MSE Loss:", loss)
+print("Mean Squared Error Loss :", loss)
