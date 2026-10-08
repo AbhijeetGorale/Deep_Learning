@@ -1,6 +1,6 @@
 # Marvellous MAE Loss Demonstration
 
-def Marvellous_MAE(y_true, y_pred):
+def MAE(y_true, y_pred):
     n = len(y_true)
     total_error = 0
 
