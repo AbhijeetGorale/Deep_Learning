@@ -16,5 +16,5 @@ def MAE(y_true, y_pred):
 y_true = [10, 20, 30]
 y_pred = [12, 18, 33]
 
-loss = Marvellous_MAE(y_true, y_pred)
+loss = MAE(y_true, y_pred)
 print("MAE Loss:", loss)
