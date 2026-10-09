@@ -22,5 +22,5 @@ def Binary_CrossEntropy(y_true, y_pred):
 y_true = [1, 0, 1]
 y_pred = [0.9, 0.2, 0.8]
 
-loss = Marvellous_Binary_CrossEntropy(y_true, y_pred)
+loss = Binary_CrossEntropy(y_true, y_pred)
 print("Binary Cross Entropy Loss:", loss)
