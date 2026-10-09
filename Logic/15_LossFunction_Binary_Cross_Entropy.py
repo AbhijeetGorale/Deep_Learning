@@ -1,4 +1,4 @@
-# Marvellous Binary Cross Entropy Demonstration
+# Binary Cross Entropy Demonstration
 import math
 
 def Marvellous_Binary_CrossEntropy(y_true, y_pred):
