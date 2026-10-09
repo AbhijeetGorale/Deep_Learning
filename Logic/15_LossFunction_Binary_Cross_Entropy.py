@@ -1,7 +1,7 @@
 # Binary Cross Entropy Demonstration
 import math
 
-def Marvellous_Binary_CrossEntropy(y_true, y_pred):
+def Binary_CrossEntropy(y_true, y_pred):
     total_loss = 0
     n = len(y_true)
 
