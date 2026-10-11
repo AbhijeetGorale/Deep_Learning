@@ -1,7 +1,7 @@
 import math
 
 # ---------------------------------------------------------
-# Marvellous ANN Example
+#  ANN Example
 # Demonstrates:
 # 1. Forward propagation
 # 2. Loss calculation
@@ -10,7 +10,7 @@ import math
 # ---------------------------------------------------------
 
 # Sigmoid activation function
-def Marvellous_Sigmoid(value):
+def Sigmoid(value):
     return 1 / (1 + math.exp(-value))
 
 # Derivative of sigmoid
