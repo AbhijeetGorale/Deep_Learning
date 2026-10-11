@@ -79,7 +79,7 @@ for epoch in range(1, epochs + 1):
 
     # Derivative of output with respect to z
     # doutput/dz = sigmoid'(z) = output * (1 - output)
-    doutput_dz = Marvellous_Sigmoid_Derivative(output)
+    doutput_dz = Sigmoid_Derivative(output)
 
     # Chain rule:
     # dL/dz = dL/doutput * doutput/dz
