@@ -15,7 +15,7 @@ def Sigmoid(value):
 
 # Derivative of sigmoid
 # If output = sigmoid(z), then derivative = output * (1 - output)
-def Marvellous_Sigmoid_Derivative(output):
+def Sigmoid_Derivative(output):
     return output * (1 - output)
 
 # ---------------------------------------------------------
@@ -59,7 +59,7 @@ for epoch in range(1, epochs + 1):
     z = (x1 * w1) + (x2 * w2) + b
 
     # Output after sigmoid activation
-    output = Marvellous_Sigmoid(z)
+    output = Sigmoid(z)
 
     # =========================
     # Step 2: Loss Calculation
