@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
 # ---------------------------------------------------------
-# Marvellous ANN Example with Animated Graphics
+# ANN Example with Animated Graphics
 # Demonstrates:
 # 1. Forward propagation
 # 2. Loss calculation
