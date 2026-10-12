@@ -58,7 +58,7 @@ for epoch in range(1, epochs + 1):
 
     # Step 1: Forward Propagation
     z = (x1 * w1) + (x2 * w2) + b
-    output = Marvellous_Sigmoid(z)
+    output = My_Sigmoid(z)
 
     # Step 2: Loss Calculation
     loss = 0.5 * (target - output) ** 2
