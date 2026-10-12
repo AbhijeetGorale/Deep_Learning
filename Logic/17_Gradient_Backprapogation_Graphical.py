@@ -65,7 +65,7 @@ for epoch in range(1, epochs + 1):
 
     # Step 3: Backpropagation
     dL_doutput = output - target
-    doutput_dz = Marvellous_Sigmoid_Derivative(output)
+    doutput_dz = My_Sigmoid_Derivative(output)
     dL_dz = dL_doutput * doutput_dz
 
     dL_dw1 = dL_dz * x1
