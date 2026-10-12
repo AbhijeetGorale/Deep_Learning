@@ -17,7 +17,7 @@ def My_Sigmoid(value):
     return 1 / (1 + math.exp(-value))
 
 # Derivative of sigmoid
-def Marvellous_Sigmoid_Derivative(output):
+def My_Sigmoid_Derivative(output):
     return output * (1 - output)
 
 # ---------------------------------------------------------
