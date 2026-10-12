@@ -9,7 +9,7 @@ from matplotlib.animation import FuncAnimation
 # 2. Loss calculation
 # 3. Backpropagation
 # 4. Gradient descent weight update
-# 5. Animated visual representation
+# 5. Animated visual representation.
 # ---------------------------------------------------------
 
 # Sigmoid activation function
