@@ -10,6 +10,7 @@ import numpy as np
 # Dataset
 # [Experience, Education Score, Skill Rating, Certificates]
 # ----------------------------------------------------
+
 X = [
     [1,5,4,0],
     [2,6,5,1],
