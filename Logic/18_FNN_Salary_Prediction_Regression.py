@@ -87,6 +87,7 @@ print("\nAverage Error:", error)
 # Skill = 9
 # Certifications = 3
 # ----------------------------------------------------
+
 new_emp = [[5,8,9,3]]
 new_emp_scaled = scaler_X.transform(new_emp)
 
