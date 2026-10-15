@@ -34,6 +34,7 @@ y = [0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1]
 # Step 2: Split dataset
 # stratify=y keeps class ratio balanced
 # ------------------------------------------------------------
+
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.3, random_state=42, stratify=y
 )
