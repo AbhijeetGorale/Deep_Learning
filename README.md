@@ -29,7 +29,7 @@ A structured, from-scratch journey through the foundations of Artificial Neural 
 | 17 | `17_Gradient_Backpropagation_Graphical.py` | Visualizing backpropagation |
 | 18 | `18_FNN_Salary_Prediction_Regression.py` | 🚀 Project: Feed-Forward NN for salary prediction (regression) |
 | 19 | `19_FNN_Student_Result_Classification.py` | 🚀 Project: Feed-Forward NN for student result prediction (classification) |
-| 20 | `19_FNN_Student_Result_Classification.py` | 🚀 Project: Feed-Forward NN for student result prediction (classification) |
+| 20 | `20_FNN_Student_Result_Classification_Scaling.py` | 🚀 Project: Feed-Forward NN for student result prediction (classification) |
 
 *(More files/projects are added as the practice continues.)*
 
