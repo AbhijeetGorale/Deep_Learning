@@ -26,6 +26,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 # ------------------------------------------------------------
 # Step 1: Load dataset from CSV file
 # ------------------------------------------------------------
+
 print("Step 1: Loading dataset...\n")
 
 data = pd.read_csv("placement_data.csv")
@@ -36,6 +37,7 @@ print(data)
 # ------------------------------------------------------------
 # Step 2: Understand the dataset
 # ------------------------------------------------------------
+
 print("\nStep 2: Basic Information")
 print("\nFirst 5 rows:")
 print(data.head())
