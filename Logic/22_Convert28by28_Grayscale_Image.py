@@ -1,4 +1,4 @@
-# Converting the image into Grayscale_
+# Converting the image into Grayscale_image
 from PIL import Image
 
 img = Image.open("digit.png")
