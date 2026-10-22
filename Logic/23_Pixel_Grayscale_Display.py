@@ -2,6 +2,7 @@ from PIL import Image
 import numpy as np
 
 # Load image
+
 img = Image.open("digit_28x28.png")      # Your image name
 img = img.convert("L")            # Convert to grayscale
 img = img.resize((28,28))         # Resize to 28x28
