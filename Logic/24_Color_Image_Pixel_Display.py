@@ -21,6 +21,7 @@ print("\n---------------------------------")
 print("IMAGE INFORMATION")
 print("---------------------------------")
 
+
 print("Image Shape :", pixels.shape)
 print("Height      :", pixels.shape[0], "Rows")
 print("Width       :", pixels.shape[1], "Columns")
@@ -46,7 +47,7 @@ print("Pixel[20][20] =", pixels[20][20])
 # Explain One Pixel
 # ------------------------------------------------------------
 print("\n---------------------------------")
-print("PIXEL MEANING")
+print("-----PIXEL MEANING----")
 print("---------------------------------")
 
 r = pixels[10][10][0]
