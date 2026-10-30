@@ -85,7 +85,7 @@ for i in range(4):
 # ------------------------------------------------------------
 # Step 5: Final Feature Map
 # ------------------------------------------------------------
-Marvellous_Print_Matrix("Final Feature Map", feature_map)
+Print_Matrix("Final Feature Map", feature_map)
 
 # ------------------------------------------------------------
 # Step 6 : Graphical Visualization
