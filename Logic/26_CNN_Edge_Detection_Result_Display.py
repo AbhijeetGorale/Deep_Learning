@@ -1,5 +1,5 @@
 # ------------------------------------------------------------
-# Marvellous Convolution Demo with Visualization
+# Convolution Demo with Visualization
 # 6x6 Grayscale Image
 # Top 3 rows = 0
 # Bottom 3 rows = 255
@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 # ------------------------------------------------------------
 # Function to print matrix nicely
 # ------------------------------------------------------------
-def Marvellous_Print_Matrix(title, matrix):
+def Print_Matrix(title, matrix):
     print("\n" + "-" * 50)
     print(title)
     print("-" * 50)
