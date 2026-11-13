@@ -1,5 +1,5 @@
 # ------------------------------------------------------------
-# Marvellous Edge Detection Demo with Animation
+# Edge Detection Demo with Animation
 # 6x6 Grayscale Image + 3x3 Kernel
 # Step-by-step Convolution Visualization
 # ------------------------------------------------------------
