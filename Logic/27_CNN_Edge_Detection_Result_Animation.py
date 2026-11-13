@@ -11,7 +11,7 @@ from matplotlib.patches import Rectangle
 # ------------------------------------------------------------
 # Function to print matrix in clean format
 # ------------------------------------------------------------
-def Marvellous_Print_Matrix(title, matrix):
+def Print_Matrix(title, matrix):
     print("\n" + "-" * 50)
     print(title)
     print("-" * 50)
@@ -20,7 +20,7 @@ def Marvellous_Print_Matrix(title, matrix):
 # ------------------------------------------------------------
 # Function to draw values inside matrix cells
 # ------------------------------------------------------------
-def Marvellous_Draw_Values(ax, matrix, text_color="black"):
+def Draw_Values(ax, matrix, text_color="black"):
     rows, cols = matrix.shape
     for i in range(rows):
         for j in range(cols):
@@ -42,7 +42,7 @@ image = np.array([
     [255, 255, 255, 255, 255, 255]
 ], dtype=int)
 
-Marvellous_Print_Matrix("Original 6x6 Image", image)
+Print_Matrix("Original 6x6 Image", image)
 
 # ------------------------------------------------------------
 # Step 2 : Create 3x3 Kernel
@@ -54,7 +54,7 @@ kernel = np.array([
     [ 1,  1,  1]
 ], dtype=int)
 
-Marvellous_Print_Matrix("3x3 Kernel", kernel)
+Print_Matrix("3x3 Kernel", kernel)
 
 # ------------------------------------------------------------
 # Step 3 : Prepare Feature Map
