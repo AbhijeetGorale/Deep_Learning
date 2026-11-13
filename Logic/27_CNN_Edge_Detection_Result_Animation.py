@@ -102,7 +102,7 @@ for i in range(4):
         # -------------------------
         axes[0].imshow(image, cmap="gray", vmin=0, vmax=255)
         axes[0].set_title("Original Image")
-        Marvellous_Draw_Values(axes[0], image)
+        Draw_Values(axes[0], image)
 
         # Red box showing current 3x3 region
         rect = Rectangle((j - 0.5, i - 0.5), 3, 3,
@@ -116,7 +116,7 @@ for i in range(4):
         # -------------------------
         axes[1].imshow(region, cmap="gray", vmin=0, vmax=255)
         axes[1].set_title("Marvellous Current 3x3 Region")
-        Marvellous_Draw_Values(axes[1], region)
+        Draw_Values(axes[1], region)
         axes[1].set_xticks(range(3))
         axes[1].set_yticks(range(3))
 
@@ -125,7 +125,7 @@ for i in range(4):
         # -------------------------
         axes[2].imshow(kernel, cmap="gray")
         axes[2].set_title("3x3 Kernel")
-        Marvellous_Draw_Values(axes[2], kernel)
+        Draw_Values(axes[2], kernel)
         axes[2].set_xticks(range(3))
         axes[2].set_yticks(range(3))
 
@@ -134,7 +134,7 @@ for i in range(4):
         # -------------------------
         axes[3].imshow(feature_map, cmap="gray")
         axes[3].set_title("Feature Map So Far")
-        Marvellous_Draw_Values(axes[3], feature_map)
+        Draw_Values(axes[3], feature_map)
         axes[3].set_xticks(range(4))
         axes[3].set_yticks(range(4))
 
