@@ -1,9 +1,7 @@
 # ------------------------------------------------------------
 # Detect edges using OpenCV
-# ------------------------------------------------------------
-
+# -----------------------------------------------------------
 import cv2
-
 # Load image
 img = cv2.imread("sample.png")
 
@@ -21,7 +19,6 @@ cv2.imshow("Grayscale Image", gray)
 
 # Show Edge Detected Image
 cv2.imshow("Edges", edges)
-
 # Wait until key press
 cv2.waitKey(0)
 cv2.destroyAllWindows()
