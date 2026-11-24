@@ -3,6 +3,7 @@ import numpy as np
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input, decode_predictions
 
 def ImageClassifier():
+    
     # 1) Load pre-trained CNN (ImageNet)
     model = MobileNetV2(weights="imagenet")
 
