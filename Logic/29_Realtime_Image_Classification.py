@@ -44,7 +44,7 @@ def ImageClassifier():
     cv2.destroyAllWindows()
 
 def main():
-    MarvellousImageClassifier()
+    ImageClassifier()
 
 if __name__ == "__main__":
     main()
