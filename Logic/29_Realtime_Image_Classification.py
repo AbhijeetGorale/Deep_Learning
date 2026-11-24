@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input, decode_predictions
 
-def MarvellousImageClassifier():
+def ImageClassifier():
     # 1) Load pre-trained CNN (ImageNet)
     model = MobileNetV2(weights="imagenet")
 
