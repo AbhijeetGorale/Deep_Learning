@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-print("----- Marvellous TensorFlow Tensor Creation Example -----")
+print("----- TensorFlow Tensor Creation Example -----")
 
 # Scalar tensor (single value)
 scalar_tensor = tf.constant(10)
