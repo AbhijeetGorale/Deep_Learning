@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-print("-----Marvellous Tensor Operations Example -----")
+print("----- Tensor Operations Example -----")
 
 tensor1 = tf.constant([10, 20, 30])
 tensor2 = tf.constant([1, 2, 3])
