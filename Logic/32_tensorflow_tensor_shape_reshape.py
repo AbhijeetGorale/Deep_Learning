@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-print("----- Marvellous Tensor Reshape Example -----")
+print("----- Tensor Reshape Example -----")
 
 # Create 1D tensor with 12 values
 original_tensor = tf.constant([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
