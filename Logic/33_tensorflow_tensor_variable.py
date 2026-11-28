@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-print("----- Marvellous TensorFlow Variable Example -----")
+print("----- TensorFlow Variable Example -----")
 
 # Create a variable
 weight = tf.Variable(5.0)
